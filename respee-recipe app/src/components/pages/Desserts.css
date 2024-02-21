@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+.main-d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inria Sans", sans-serif;
+}
+
+.title-d {
+  margin: 1rem;
+  justify-content: center;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.search-wrapper {
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+
+  input {
+    width: 100%;
+    padding: 10px 30px 10px 40px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 50px;
+  }
+}
+
+#search-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: rgb(47, 52, 52);
+}
+
+
+
+.wrapperd {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+
